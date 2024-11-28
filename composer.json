@@ -1,0 +1,20 @@
+{
+    "name": "ahvega/integracion-wpoptin-google-sheets",
+    "description": "Integra WP Optin con Google Sheets para enviar datos de la ruleta automáticamente.",
+    "type": "wordpress-plugin",
+    "require": {
+        "google/apiclient": "^2.16",
+        "composer/installers": "^2.0"
+    },
+    "require-dev": {
+        "php-stubs/wordpress-stubs": "^6.5",
+        "php-stubs/wordpress-globals": "^0.2.0",
+        "php-stubs/acf-pro-stubs": "^6.0",
+        "symfony/var-dumper": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
