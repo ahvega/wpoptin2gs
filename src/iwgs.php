@@ -1,4 +1,5 @@
 <?php
+/** @var array $_SERVER */
 // Incluir la biblioteca de Google Client
 require_once plugin_dir_path( __DIR__ ) . 'vendor/autoload.php';
 
@@ -438,6 +439,7 @@ function iwgs_get_google_client(): ?Google_Client {
  *
  * Esta función se encarga de recibir los datos del webhook, procesarlos y
  * enviarlos a la hoja de Google configurada.
+ * @var array @_SERVER
  * @return void
  */
 function iwgs_process_webhook_data(): void {
