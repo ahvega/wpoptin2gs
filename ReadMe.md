@@ -1,23 +1,23 @@
-# WPOptin to Google Sheets Integration
+# Integración de WPOptin a Google Sheets
 
-> WordPress plugin to seamlessly integrate WPOptin form data with Google Sheets
+> Plugin de WordPress para integrar sin problemas los datos del formulario [WPOptin](https://wordpress.org/plugins/wp-optin-wheel/) con Google Sheets
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
+[![Licencia: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![WordPress](https://img.shields.io/badge/WordPress-6.5-green.svg)](https://wordpress.org/)
 
-## 📋 Table of Contents
+## 📋 Tabla de Contenidos
 
-- [🚀 Description](#-description)
-- [✨ Features](#-features)
-- [📥 Installation](#-installation)
-- [❓ FAQ](#-faq)
-- [📸 Screenshots](#-screenshots)
-- [📝 Changelog](#-changelog)
-- [⚖️ License](#️-license)
+- [🚀 Descripción](#-descripción)
+- [✨ Características](#-características)
+- [📥 Instalación](#-instalación)
+- [❓ Preguntas Frecuentes](#-preguntas-frecuentes)
+- [📸 Capturas de Pantalla](#-capturas-de-pantalla)
+- [📝 Registro de Cambios](#-registro-de-cambios)
+- [⚖️ Licencia](#️-licencia)
 
-## 🚀 Description
+## 🚀 Descripción
 
-Integración WPOptin -> Google Sheets permite integrar fácilmente WP Optin con Google Sheets para enviar datos de la ruleta automáticamente a una hoja de cálculo de Google. Este plugin ofrece una solución robusta y confiable para la captura y almacenamiento de datos de participantes.
+La integración WPOptin -> Google Sheets permite integrar fácilmente WP Optin con Google Sheets para enviar datos de la ruleta automáticamente a una hoja de cálculo de Google. Este plugin ofrece una solución robusta y confiable para la captura y almacenamiento de datos de participantes.
 
 ### Características principales
 
@@ -30,7 +30,7 @@ Integración WPOptin -> Google Sheets permite integrar fácilmente WP Optin con 
 7. Interfaz de administración para configuración fácil.
 8. Logging detallado para facilitar el debugging.
 
-## ✨ Features
+## ✨ Características
 
 1. Integración automática de datos entre WPOptin y Google Sheets.
 2. Autenticación segura con Google utilizando OAuth 2.0.
@@ -41,7 +41,7 @@ Integración WPOptin -> Google Sheets permite integrar fácilmente WP Optin con 
 7. Interfaz de administración para configuración fácil.
 8. Logging detallado para facilitar el debugging.
 
-## 📥 Installation
+## 📥 Instalación
 
 1. Sube la carpeta `integracion-wpoptin-google-sheets` al directorio `/wp-content/plugins/` o instala el plugin directamente desde la página de plugins de WordPress.
 2. Activa el plugin a través de la página 'Plugins' en WordPress.
@@ -49,7 +49,7 @@ Integración WPOptin -> Google Sheets permite integrar fácilmente WP Optin con 
 4. Introduce tus credenciales de Google API, el ID de la hoja de Google Sheets y el nombre de la hoja.
 5. Autentica la aplicación con Google cuando se te solicite.
 
-## ❓ FAQ
+## ❓ Preguntas Frecuentes
 
 ### ¿Cómo obtengo el Client ID y el Client Secret de Google?
 
@@ -73,13 +73,13 @@ El plugin guarda automáticamente los datos en un archivo CSV local como respald
 
 El plugin enviará una notificación por correo electrónico al administrador del sitio si hay problemas de autorización. También puedes revisar los logs del plugin para obtener información detallada.
 
-## 📸 Screenshots
+## 📸 Capturas de Pantalla
 
 1. Configuración del plugin en el administrador de WordPress.
 2. Proceso de autenticación OAuth2 con Google.
 3. Datos enviados desde WP Optin a Google Sheets.
 
-## 📝 Changelog
+## 📝 Registro de Cambios
 
 ### 1.0
 
@@ -92,7 +92,7 @@ El plugin enviará una notificación por correo electrónico al administrador de
 - Notificaciones por correo electrónico.
 - Logging para debugging.
 
-## ⚖️ License
+## ⚖️ Licencia
 
 Este plugin está licenciado bajo la GPLv2 o posterior.
 Para más detalles, visita [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html).
