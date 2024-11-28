@@ -26,6 +26,7 @@ token.json
 *.swo
 *~
 .DS_Store
+jsconfig.json
 
 # Node modules and build files
 node_modules/
